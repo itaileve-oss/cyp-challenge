@@ -5,3 +5,16 @@ __pycache__/
 .ipynb_checkpoints/
 external/
 .DS_Store
+
+# Generated pose pools and analysis outputs (hundreds of MB, regenerable)
+structure/analysis/
+structure/pool_*/
+structure/baseline_boltz/
+structure/msa/
+logs/
+tmp/
+*.tgz
+*.zip
+vast_deploy/*.tar.gz
+vast_deploy/*.pdbqt
+submissions/*_files/
