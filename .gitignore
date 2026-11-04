@@ -1,5 +1,4 @@
 data/
-models/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -18,3 +17,12 @@ tmp/
 vast_deploy/*.tar.gz
 vast_deploy/*.pdbqt
 submissions/*_files/
+
+# Model artifacts: keep the prediction tables, drop regenerable caches and pickles.
+# No model weights exist -- the pipeline refits from code.
+models/*
+!models/
+!models/*.csv
+!models/tabpfn_confirm_cache/
+models/tabpfn_confirm_cache/*
+!models/tabpfn_confirm_cache/*.csv
