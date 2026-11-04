@@ -15,6 +15,7 @@ fails.
 | [Crystal contact motif](crystal-motif.md) | knowledge-based scoring from 96 deposited complexes, and why it misled us |
 | [GFN2-xTB scoring](xtb-scoring.md) | quantum interaction energy, and the measured limits of scaling it |
 | [QM/MM minimisation](qmmm-minimization.md) | sander PM6; four silent failures worth knowing about |
+| [OrbMol MLIP](orbmol.md) | ωB97M-level energies/forces for the heme site; Fe–N 2.19 Å where PM6 gave 1.96 |
 | [Pose selection](pose-selection.md) | what does not transfer, and the rules that do |
 
 ## Regression track
