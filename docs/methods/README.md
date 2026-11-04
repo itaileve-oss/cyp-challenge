@@ -16,6 +16,7 @@ fails.
 | [GFN2-xTB scoring](xtb-scoring.md) | quantum interaction energy, and the measured limits of scaling it |
 | [QM/MM minimisation](qmmm-minimization.md) | sander PM6; four silent failures worth knowing about |
 | [OrbMol MLIP](orbmol.md) | ωB97M-level energies/forces for the heme site; Fe–N 2.19 Å where PM6 gave 1.96 |
+| [ML/MM](mlmm.md) | the same site coupled to Amber protein + water; link-atom boundary, and the heme charge-state bug it exposed |
 | [Pose selection](pose-selection.md) | what does not transfer, and the rules that do |
 
 ## Regression track
