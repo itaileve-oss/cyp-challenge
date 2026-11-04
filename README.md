@@ -7,8 +7,9 @@ Everything here is reproducible from public inputs: the challenge data, UniProt
 P08684, the heme CCD component, public MSAs, and deposited CYP3A4 structures. No
 proprietary data.
 
-Written up in full: [regression methods](https://claude.ai/artifact/JjKfzrhtLgSuCED9AUD6KA) ·
-[structure methods](https://claude.ai/artifact/HKqBErguaofNXPuKFE7sDU)
+**[Per-method documentation is in `docs/methods/`](docs/methods/README.md)** — one
+page per method, each covering how to run it, what it produced, and where it
+fails.
 
 ---
 
